@@ -34,7 +34,7 @@ const app = new Vue ({
 			}
 		},
 		autoPlay () { // Exit
-			this.autoP = setInterval(this.goNext, 1000);
+			this.autoP = setInterval(this.goNext, 3000);
 		},
 		stopAutoPlay(){ // Enter
 			this.stopAutoP = clearInterval(this.autoP);
